@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+*{
+    font-family: Inter;
+}
+body{
+    width: 100vw;
+    display: grid;
+    place-content: center;
+    height: 100vh;
+    background-color: aliceblue;
+    color: #373737;
+}
+#container{
+    width: 100vw;
+    height: 30vh;
+    text-align: center;
+    border: 2px solid rgb(203, 237, 255);
+    padding: 20px;
+    -webkit-box-shadow: 6px 10px 26px 0px rgba(0,0,0,0.14);
+    -moz-box-shadow: 6px 10px 26px 0px rgba(0,0,0,0.14);
+    box-shadow: 6px 10px 26px 0px rgba(0,0,0,0.14);
+    display: grid;
+    place-content: center;
+    place-items: center;
+    background-color: white;
+}
+#container h1{
+    margin: 0;
+    margin-top: -10px;
+    margin-bottom: 20px;
+}
+#container input{
+    border: none;
+    background-color: rgb(240, 240, 240);
+    height: 30px;
+    width: 10vw;
+    border-radius: 10px;
+    padding-left: 10px;
+    color: #1e1e1e;
+}
+#container input:nth-child(2){
+    width: 5vw;
+    margin-left: 10px;
+    background-color: rgb(203, 237, 255);
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+    color: rgb(28, 65, 85);
+}
+#container input:nth-child(2):active{
+    transform: scale(0.9);
+}
+#trophy{
+    width: 160px;
+    margin-top: -30px;
+}
